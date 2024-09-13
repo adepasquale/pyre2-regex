@@ -65,7 +65,7 @@ Installation
 
 Normal usage for Linux/Mac/Windows::
 
-  $ pip install pyre2
+  $ pip install "pyre2 @ git+https://github.com/adepasquale/pyre2-regex.git"
 
 Compiling from source
 ---------------------
@@ -96,8 +96,8 @@ cmake generator.  For example::
 
 For development, get the source::
 
-    $ git clone git://github.com/andreasvc/pyre2.git
-    $ cd pyre2
+    $ git clone git://github.com/adepasquale/pyre2-regex.git
+    $ cd pyre2-regex
     $ make install
 
 
